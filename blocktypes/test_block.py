@@ -1,4 +1,4 @@
-from prefect.blocks import Block
+from prefect.blocks.core import Block
 
 class TestBlock(Block):
     pass
